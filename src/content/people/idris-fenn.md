@@ -1,17 +1,20 @@
 ---
 title: Idris Fenn
 description:
-  A tutor working across the course's first reviews and the practical work that
-  follows them.
+  Tutor running the weekly studios — emulation setup, file-format debugging,
+  and the individual check-ins on each student's recovery project.
 affiliation: Slop University School of Invented Disciplines
 role: tutor
 email: idris.fenn@slop.university
-contact: Ask during sessions, or email when a question cannot wait until the next one.
-photo: ./idris-fenn.avif
-photoAlt: A stylised portrait of a person facing the viewer, flat gold and black shapes on warm cream, in a two-ink risograph print
+contact: Ask during studio, or email when a question can't wait until the next one.
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
+Idris runs the studios: the hours where emulators actually get installed,
+hex dumps get read, and a save file either gives up its evidence or doesn't.
+If your recovery attempt is stuck — an emulator won't boot a dump, a file
+format won't parse, an archive turned out to be a dead link — studio time is
+where that gets unstuck.
 
-Replace this entry. A second person makes the listing, role ordering and
-teacher-reference fields visible before you replace the cast with your own.
+Office hours run alongside studio sessions rather than separately, since
+most questions are easier to answer in front of the artifact than over
+email.

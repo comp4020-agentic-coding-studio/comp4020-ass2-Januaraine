@@ -1,21 +1,21 @@
 ---
 title: Marisol Quaye
 description:
-  The founding convenor, responsible for the course's shape and its weekly
-  teaching programme.
+  The founding convenor. Designed the recovery-practicum structure and sets
+  the course's ethical and legal boundaries around emulation and abandonware.
 affiliation: Slop University School of Invented Disciplines
 role: convenor
 email: marisol.quaye@slop.university
-contact: Email for course-level questions; use the weekly session for feedback on work.
-photo: ./marisol-quaye.avif
-photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
+contact: Email for course-level questions; use studio time for feedback on a recovery attempt.
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
+Marisol built this course around a simple bet: that treating a lost game as
+an archaeological artifact — something to excavate, document and exhibit,
+not just play in an emulator — teaches preservation better than a lecture
+about it does. She sets the course's line on what counts as in-scope
+recovery work, and where emulation and archival access stop and copyright
+infringement starts.
 
-Replace this entry. A people page carries a short bio and whatever a student
-needs in order to contact the right person for the right thing --- and nothing
-that will be stale by week 3.
-
-Consultation hours, contact preferences and the escalation path (who to ask
-first, who to ask when that does not work) are the parts students actually read.
+Reachable by email for anything that affects the whole class: deadlines,
+scope questions on the final project, or a platform your artifact needs that
+isn't yet supported by the studio setup.

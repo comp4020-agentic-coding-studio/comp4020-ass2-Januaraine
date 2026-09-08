@@ -44,3 +44,13 @@ brief and spec at the course website for what's actually being built.
 ## Growing this file
 
 Add project-specific conventions here as they're discovered (recurring agent mistakes, curriculum-design decisions encoded as rules, new invariants) — keep entries short and actionable.
+
+### Course-design decisions (Digital Archaeology: Recovering Lost Games)
+
+See `docs/course-plan.md` for the full rationale behind these; encoded here so future edits don't silently drift from them.
+
+1. **No server-dependent/online-only games as a hands-on recovery target.** Assessment and studio artifacts must be recoverable via emulation/local file-format work — not games whose core content lived on a shut-down server.
+2. **No advanced reverse engineering or exploit development in scope.** The course teaches file-format investigation, emulation and archival research at an intermediate level (SLOP3406, level 3) — not binary exploitation or advanced disassembly.
+3. **Case-study games are fictional.** "Meridian Drift" (and any future recurring case study) is an invented title, not a real game — avoids real-world IP/accuracy claims while fitting the site's fictional "Slop University" framing.
+4. **Recovery Exhibit's presentation date is fixed; only the written component can get a short extension.** Keep this distinction if policies or assessment briefs are edited.
+5. **Emulation/ROMs are taught as preservation method, not distribution.** Any new content touching ROMs/abandonware should restate non-endorsement of illegal distribution (see `/lectures/06-abandonware-ethics/`).

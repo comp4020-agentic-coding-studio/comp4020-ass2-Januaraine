@@ -1,0 +1,89 @@
+---
+title: "Case study: excavating Meridian Drift"
+description: One PC game, excavated start to finish — the course's recurring reference case study
+---
+
+# Meridian Drift
+
+Wavelength Interactive, PC, 2004 — publisher folded before release
+
+---
+
+## What's known going in
+
+- announced 2002, previewed at two trade shows
+- publisher, Wavelength Interactive, ceased trading in late 2004
+- no retail release ever shipped
+- a "final beta" build has circulated on abandonware forums since 2009
+
+Everything past this slide comes from that beta build — nothing else survives.
+
+---
+
+{/* _class: impact */}
+
+# One archive. No documentation.
+
+---
+
+## Opening the build
+
+- installer runs under DOSBox with no compatibility flags
+- most assets sit inside a single `.mdpak` archive
+- `.mdpak` has never been publicly documented
+
+This is week 3's exercise, applied for real.
+
+---
+
+## Reading `.mdpak` cold
+
+```
+4D 44 50 4B  01 00 00 00  8F 03 00 00
+M  D  P  K   ─ version ─  ─ file count ─
+```
+
+- `MDPK` magic bytes confirm the format before anything else
+- a 4-byte version field, then a 4-byte file count
+- a file table follows: name, offset, length — repeated per entry
+
+Twenty minutes with a hex editor and this format gives up its structure.
+
+---
+
+## What the build contains
+
+- 91 of an estimated 140+ level files
+- full audio, apparently complete
+- a save-file format (next week's case study)
+- no configuration or launcher — assembled from the archive alone
+
+---
+
+## What ran, and what didn't
+
+- first three levels boot and play cleanly
+- level nine crashes on load — a missing dependency, not a corrupt file
+- final act referenced in dialogue files, but no matching level data exists
+
+---
+
+{/* _class: quote */}
+
+> The save files knew about content the levels folder never did.
+
+---
+
+## Turning this into evidence
+
+- every claim above traces to a specific file, offset, or forum post
+- "91 of 140+" is itself a claim — it needs its own citation
+- the missing final act is a finding, not a gap in the write-up
+
+This is the shape every recovery report in this course follows.
+
+---
+
+{/* _class: banner */}
+
+## Same case study returns in week 5 (saves) and week 6 (ethics)

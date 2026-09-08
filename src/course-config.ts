@@ -44,19 +44,22 @@ export const slopCourseMetaSchema = z
 // this API contract when the course is published.
 //
 // The code's last three digits were assigned to this repo when it was
-// provisioned, and no other course in the cohort has them. Change the first
-// digit to your course's level (and `level` to match); keep the other three.
-// STARTER_CONTENT: replace this course record, then remove this comment.
+// provisioned, and no other course in the cohort has them. Level 3 reflects
+// the course's confirmed technical depth: an intermediate elective that
+// assumes basic programming/computing literacy but no advanced reverse
+// engineering or exploit development (see docs/course-plan.md, decision 6).
 export const courseMeta = slopCourseMetaSchema.parse({
-  code: "SLOP1406",
-  title: "Course Title Goes Here",
+  code: "SLOP3406",
+  title: "Digital Archaeology: Recovering Lost Games",
   session: "Semester 1",
   year: 2027,
-  level: 1,
+  level: 3,
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "One concise paragraph explaining what this course is, who it is for, " +
-    "and why somebody would choose to spend a semester taking it.",
-  tags: ["replace me"],
+    "A hands-on recovery practicum: you excavate real abandoned and obsolete " +
+    "PC, console and browser games using emulation, archival research and " +
+    "file-format investigation, then document and exhibit what you recover " +
+    "— or what you can prove is genuinely unrecoverable.",
+  tags: ["preservation", "emulation", "archival research"],
 }) satisfies CourseMetaInput;
